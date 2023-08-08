@@ -100,6 +100,7 @@ public class ClienteCompras {
 	@Column(insertable = false, updatable = false)
 	private Integer numero;
 	
+//	@Column(name = "FECHAALTA", insertable = false, updatable = false)
 	@Column(insertable = false, updatable = false)
 	private LocalDateTime fechaAlta;
 	
